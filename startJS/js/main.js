@@ -91,40 +91,33 @@
 //     document.getElementById("output").innerHTML = feedbackState +'<br>'+ feedbackHome +'<br>' + feedbackLight
 // }
 
-myFunction = () => {
-    let elem = document.getElementById("chooseMe")
-    let dateShort = elem.options[elem.selectedIndex].text
-    let dayName;
-    console.log(dateShort)
+// myFunction = () => {
+//     let elem = document.getElementById("chooseMe")
+//     let fortuneNum = elem.options[elem.selectedIndex].value
+//     let fortuneMessage;
+//     console.log(fortuneNum)
 
-    switch (Number(dateShort)) {
-        case 1:
-            dayName = "Sunday"
-            break;
-        case 2:
-            dayName = "Monday"
-            break;
-        case 3:
-            dayName = "Tuesday"
-            break;
-        case 4:
-            dayName = "Wednesday"
-            break;
-        case 5:
-            dayName = "Thursday"
-            break;
-        case 6:
-            dayName = "Friday"
-            break;
-        case 7:
-            dayName = "Saturday"
-            break;
-        default:
-            dayName = "Out of Range"
-    }
+//     switch (Number(fortuneNum)) {
+//         case 1:
+//         case 6:
+//             fortuneMessage = "You will get a fortune"
+//             break;
+//         case 2:
+//         case 7:
+//             fortuneMessage = "JS Ninja"
+//             break;
+//         case 3:
+//             fortuneMessage = "You will win a new car"
+//             break;
+//         case 4:
+//         case 8:
+//             fortuneMessage = "Comp"
+//             break;
+        
+//         default:
+//             fortuneMessage = "you done f'd up"
+//     }
 
-
-
-    document.getElementById("feedback").innerHTML = dayName;
-}
+//     document.getElementById("feedback").innerHTML = fortuneMessage;
+// }
 
