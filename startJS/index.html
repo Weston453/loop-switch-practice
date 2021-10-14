@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<h1>Learning JavaScript</h1>
+
+<button onclick="test()">Test the Function</button><br><br>
+
+Wall to Wall<input type="number" id="across"><br><br>
+
+Height of Walls <input type="number" id="height"><br><br>
+
+<button onclick="materialsNeeded()">Calculate Materials</button><br><br>
+
+<h2>Home State?</h2>
+<select id="state">
+    <option value="WY">Wyoming</option>
+    <option value="UT">Utah</option>
+    <option value="ID">Idaho</option>
+    <option value="MT">Montana</option>
+    <option value="CO">Colorado</option>
+</select>
+
+<h2>Home Style?</h2>
+<select id="home">
+    <option value="single">Single Family</option>
+    <option value="apartment">Apartment or Condo</option>
+    <option value="multi">Multi-Family</option>
+    <option value="mobile">Mobile Home</option>
+    <!-- <option value="CO">Colorado</option> -->
+</select><br>
+
+<h2>Lighting</h2>
+<label><input type="checkbox" name="bulb" value="Incandescent">Incandecent</label>
+<label><input type="checkbox" name="bulb" value="LED">LED</label>
+<label><input type="checkbox" name="bulb" value="CFL">CFL</label>
+
+<button onclick="evaluatePage()">Run Script</button><br><br>
+
+<div id="output"></div>
+
+<select id="chooseMe">
+    <option value="U">1</option>
+    <option value="M">2</option>
+    <option value="T">3</option>
+    <option value="W">4</option>
+    <option value="R">5</option>
+    <option value="F">6</option>
+    <option value="S">7</option>
+</select>
+
+<button onclick="myFunction()">Run My Script</button>
+
+<div id="feedback"></div>
+
+
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
